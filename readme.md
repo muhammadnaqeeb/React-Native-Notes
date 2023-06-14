@@ -14,7 +14,7 @@ npm install -g expo-cli
 
 Switch to the folder where you want to make you React Native project.
 
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.001.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/001.png)
 
 **Step 4:**
 
@@ -203,11 +203,11 @@ Layouts are typically created with flexbox, Very Similar to browser CSS flexbox!
 
 Flexbox is enable on all the view, you start using flex properties right away.
 
-![different defaults for React native development](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.002.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/002.png)
 
 Properties: Flexbox Layout in React Native
 
-![flexbox properties layout](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.003.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/003.png)
 ## <a name="_toc13344"></a>Two Axes of Flexbox
 Flexbox deals with two axes –
 
@@ -223,19 +223,19 @@ The area of the document on which we want to apply the flex property can be said
 ```
 Defines the direction of the main axis. Opposite to the web, React Native default flexDirection is column which makes sense, most mobile apps much more vertically oriented.
 
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.004.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/004.png)
 
 ## <a name="_toc16792"></a>flex
 flex will define how your items are going to “fight” over the available space along your **primary axis**. Most of the time you will want your app container to be flex:1 to take all of the screen height. Space will be divided according to each element flex property. In the following example the red, yellow and the green views are all children in the container view that got flex:1. The red view got flex:1 , the yellow view got flex:2 and the green view got flex:3 . 1+2+3=6 which means that red view will get 1/6 of the space, the yellow 2/6 of the space and the green 3/6 of the space. 
 
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.005.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/005.png)
 ## <a name="_toc20394"></a>justifyContent
 ```
 ‘flex-start’,’flex-end’,’center’,’space-between’,’space-around’
 ```
 Determines the **distribution** of children along the **primary axis**. 
 
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.006.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/006.png)
 
 The default value is flex-start
 ## <a name="_toc22988"></a>alignItems
@@ -244,7 +244,7 @@ The default value is flex-start
 ```
 Align items along the **cross axis**. So in a default view(column), it will control the horizontal alignment of items.
 
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.007.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/007.png)
 
 - stretch wouldn’t work if you have a specific width
 - If you don’t have a specific width flex-start and flex-end wouldn’t understand what to do…
@@ -254,7 +254,7 @@ Align items along the **cross axis**. So in a default view(column), it will co
 ```
 align an **item** along the **cross axis** overwriting his **parent** alignItem property
 
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.008.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/008.png)
 
 ## <a name="_toc31290"></a>flexWrap
 ```
@@ -262,7 +262,7 @@ align an **item** along the **cross axis** overwriting his **parent** align
 ```
 Controls whether flex items are forced on a single line or can be wrapped on multiple lines.
 
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.009.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/009.png)
 
 The default value is nowrap
 ## <a name="_toc15373"></a>alignContent
@@ -271,7 +271,7 @@ The default value is nowrap
 ```
 So, if you went with flexWrap:'wrap' you have multiple lines of items, this property will help you align the lines on the cross-axis.
 
-![Chart, bar chart Description automatically generated](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.010.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/010.png)
 
 ## <a name="_toc16400"></a>position
 ```
@@ -285,11 +285,11 @@ position in React Native is similar to regular CSS, but everything is set to r
 
 If you want to position a child using specific numbers of logical pixels relative to its parent, set the child to have absolute position.
 
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.011.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/011.png)
 ## <a name="_toc27711"></a>zIndex
 You can control which components display on top of others. In the following example the zIndex of the yellow square to 1.
 
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.012.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/012.png)
 ## <a name="_toc16634"></a> 🔑 Key things:
 - If you don’t specify the width and height of the container, then it will take the width and height as much as it’s child required.
 
@@ -335,9 +335,9 @@ The **useState** hook lets us "remember" a value within a component function.
 ```
 const [state, setState] = useState(initialValue)
 ```
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.013.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/013.png)
 
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.014.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/014.png)
 
 **selectedRoom** is the state and it is read only, and to change selectedRoom value we use **setSelectedRoom** function and pass in the new value
 
@@ -505,7 +505,7 @@ Make a components folder in root of project.
 
 Now you can make .js file in it.
 
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.015.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/015.png)
 ```
 import { StyleSheet } from "react-native";
 function GoalItem(){
@@ -570,7 +570,7 @@ This means if modelIsVisible == true then render the next element otherwise if i
 # <a name="_toc26118"></a>**Adding Image**
 Create a Images folder inside an assets folder and drop the images in this folder
 
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.016.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/016.png)
 ```
 <Image source={require("../assets/Images/iconImg.png")} />
 ```
@@ -615,7 +615,7 @@ return (
 
 
 # <a name="_toc15801"></a>**React Native inbuild Icons.**
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.017.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/017.png)
 
 Bunch of icons libraries to import.
 ```
@@ -664,7 +664,7 @@ TextInputContainer:{
 # <a name="_toc24100"></a>**Common Style in one file and applying to multiple component.**
 Create a common directory and in it create styles.js
 
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.018.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/018.png)
 
 In styles.js
 
@@ -774,12 +774,15 @@ To pass data as a prop from a parent component to a child component, you can fol
 
 For example, if you have a child component named "MyChildComponent" and you want to pass a string "Hello, World!" as a prop named "message", you can include the child component in the parent component like this:
 
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.019.png)3. In the child component, access the data that was passed as a prop using the props object. You can use the name of the prop that you set in the parent component to access the data.
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/019.png)
+
+3. In the child component, access the data that was passed as a prop using the props object. You can use the name of the prop that you set in the parent component to access the data.
 
 For example, if you want to display the message string that was passed from the parent component, you can access it like this:
 
-![Text
-Description automatically generated](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.020.png)The child component will receive the "message" prop with the value of "Hello, World!" and display it in a Text component.
+![TextDescription automatically generated](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/020.png)
+
+The child component will receive the "message" prop with the value of "Hello, World!" and display it in a Text component.
 
 ### <a name="_toc26252"></a>Passing data to child to parent
 In React Native, data can be passed from a child component to a parent component using callback functions.
@@ -790,13 +793,13 @@ To pass data from a child component to a parent component using a callback funct
 
 For example, if you have a parent component named "MyParentComponent", you can define a callback function named "handleData" that will receive the data as an argument like this:
 
-![](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.021.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/021.png)
 
 1. In the child component, define a function that will call the callback function in the parent component and pass the data as an argument. This function can be called in response to some user interaction or other event.
 
 For example, if you have a child component named "MyChildComponent", you can define a function named "sendData" that will call the callback function in the parent component and pass the data as an argument like this:
 
-![Text Description automatically generated](Aspose.Words.b73e9615-7ea0-42dc-8c52-47aca94729cc.022.png)
+![](https://github.com/muhammadnaqeeb/React-Native-Notes/blob/main/images/022.png)
 
 1. In the parent component, pass the callback function as a prop to the child component. You can give the prop any name you like, such as "onData", and use it to call the callback function in the parent component when the child component wants to pass data to the parent component.
 
